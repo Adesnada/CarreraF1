@@ -411,6 +411,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de507d0855f8d7a498fbf88707ba1404, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Derecha: 275
+  Izquierda: 276
   ganador: {fileID: 1612910407}
   Nombre: El ganador es el coche gris
   Victoria: {fileID: 1355254763}
@@ -644,9 +646,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1528307324}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: deaf12c7ada899241b2617f7df3657f9, type: 3}
+  m_Script: {fileID: 11500000, guid: de507d0855f8d7a498fbf88707ba1404, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Derecha: 100
+  Izquierda: 97
   ganador: {fileID: 1612910407}
   Nombre: El ganador es el coche rojo
   Victoria: {fileID: 1355254763}

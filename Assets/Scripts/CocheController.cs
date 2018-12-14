@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class CocheController : MonoBehaviour {
 
     float velocidad = 25f;
+    public KeyCode Derecha = KeyCode.D;
+    public KeyCode Izquierda = KeyCode.A;
     public Text ganador;
     public string Nombre;
     public GameObject Victoria;
@@ -17,12 +19,12 @@ public class CocheController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown("right"))
+        if (Input.GetKeyDown(Derecha))
         {
             gameObject.transform.Translate(velocidad * Time.deltaTime, 0, 0);
         }
 
-        if (Input.GetKeyDown("left"))
+        if (Input.GetKeyDown(Izquierda))
         {
             this.transform.Translate(-velocidad * Time.deltaTime, 0, 0);
         }
